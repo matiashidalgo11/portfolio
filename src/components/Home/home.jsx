@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React from "react";
 import TypewriterComponent from "typewriter-effect";
 
 //styles
@@ -8,9 +8,9 @@ import classes from './home.module.css'
 import {AiFillCaretDown} from 'react-icons/ai';
 import About from "../About/About";
 
+
 export default function Home(){
 
-    const[isAbout, setAbout] = useState(false);
 
     return(
 
@@ -36,11 +36,11 @@ export default function Home(){
                     
                 </div>
 
-                <div className={classes.BtnHome} onClick={() => {setAbout(true)}}> <a href="/#about"><AiFillCaretDown className={classes.AiFillCaretDown}/></a></div>
+                <div className={classes.BtnHome}><AiFillCaretDown className={classes.AiFillCaretDown}/></div>
 
             </section>
 
-            {isAbout && <About/>}
+             <About/>
 
         </div>
     )
