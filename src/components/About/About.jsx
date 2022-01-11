@@ -18,7 +18,6 @@ export default function About(){
         <Fragment>
 
             <section id="about" className={classes.About}>
-                {/* <ParticlesContainer/> */}
                 <div className={classes.ContainerBorderAbout}>
 
                     <div className={classes.ContainerAbout}>
