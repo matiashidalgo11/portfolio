@@ -20,7 +20,7 @@
 
 .proyecto{
 
-    max-width: 550px;
+    max-width: 650px;
     max-height: 550px;
     background-color: var(--NOW-1-hex);
     overflow: hidden;
@@ -31,7 +31,7 @@
 
 .proyecto .container-proyecto-img{
     width: 95%;
-    height: 40%;
+    height: 55%;
     margin: 5px auto;
 }
 

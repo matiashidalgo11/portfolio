@@ -10,7 +10,8 @@ const dataProyectos = [
         img:starwars, modalidad:"Grupo", 
         fecha:"2021", 
         descripcion:"Aplicacion basada en la saga de StarWars. Fue hecha completamente con React, en la cual podes registrarte y podes agregar Vehiculos o Personajes ademas de editarlos.", 
-        deploy:"https://star-wars-app-react-bootcamp.herokuapp.com/", github:"https://github.com/RomanOliva10/StarWars-Project"
+        deploy:"https://star-wars-app-react-bootcamp.herokuapp.com/", 
+        github:"https://github.com/RomanOliva10/StarWars-Project"
     },
 
     {
@@ -19,7 +20,7 @@ const dataProyectos = [
         modalidad:"Individual", 
         fecha:"2022", 
         descripcion:"Portfolio personal creado con React.", 
-        deploy:"", 
+        deploy:"https://matias-hidalgo-portfolio.netlify.app/", 
         github:"https://github.com/matiashidalgo11/portfolio.git"
     }
 
