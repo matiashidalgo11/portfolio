@@ -1,5 +1,5 @@
 import React from "react";
-import { Fragment } from "react/cjs/react.development";
+
 
 //styles
 import classes from './About.module.css'
@@ -15,7 +15,7 @@ export default function About(){
 
 
     return(
-        <Fragment>
+        <div className={classes.ContainerAbout}>
 
             <section id="about" className={classes.About}>
                 <div className={classes.ContainerBorderAbout}>
@@ -37,6 +37,6 @@ export default function About(){
             
             <Skills/>
 
-        </Fragment>
+        </div>
     )
 }
