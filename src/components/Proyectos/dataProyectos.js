@@ -20,7 +20,7 @@ const dataProyectos = [
         fecha:"2022", 
         descripcion:"Portfolio personal creado con React.", 
         deploy:"", 
-        github:""
+        github:"https://github.com/matiashidalgo11/portfolio.git"
     }
 
 

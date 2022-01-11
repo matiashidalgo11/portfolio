@@ -12,13 +12,12 @@ import Skills from "../Skills/Skills";
 
 
 export default function About(){
-  
+
 
     return(
         <Fragment>
 
             <section id="about" className={classes.About}>
-                {/* <ParticlesContainer/> */}
                 <div className={classes.ContainerBorderAbout}>
 
                     <div className={classes.ContainerAbout}>
