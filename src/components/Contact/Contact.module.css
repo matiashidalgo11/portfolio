@@ -1,0 +1,204 @@
+.Contact{
+    background-color: var(--NOW-3-hex);
+    height: 100vh;
+    width: 100%;
+    padding-top: 90px;
+}
+
+
+.Contact .ContainerForm{
+    
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    border: 4px solid var(--NOW-2-hex);
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: var(--NOW-1-hex);
+
+}
+
+.Contact .ContainerForm h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Contact .ContainerForm .ContainerInput{
+    
+    display: flex;
+    align-items: center;
+
+    width: 80%;
+    height: 70px;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+/* .Contact .ContainerForm .ContainerInput label{
+    margin: 0 5px;
+    width: 20%;
+} */
+
+.Contact .ContainerForm .ContainerInput input{
+    width: 100%;
+    height: 80%;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: var(--NOW-5-hex);
+}
+
+.Contact .ContainerForm .ContainerInput input::placeholder{
+    color: gray;
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+}
+
+.ContainerInputMsj{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ContainerInputMsj textarea{
+    margin: 5px 0;
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    background-color: var(--NOW-5-hex);
+}
+
+.BtnMsj{
+    
+    margin: 10px 0 0 10%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: var(--NOW-2-hex);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.BtnMsj:hover{
+    color: var(--NOW-2-hex);
+    background-color: var(--NOW-1-hex);
+    outline: 3px solid var(--NOW-2-hex);
+}
+
+.Contact .Social{
+    width: 30%;
+    height: 120px;
+    margin: 10px auto;
+    background-color: var(--NOW-1-hex);
+    border-radius: 10px;
+    border: 3px solid var(--NOW-2-hex);
+
+}
+
+.Contact .Social hr{
+    background-color: white;
+    width: 30px;
+    margin: 0 auto;
+}
+
+.Contact .Social h3{
+
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ContainerSocial{
+
+    width: 80%;
+    border-radius: 10px;
+    margin: 15px auto 10px auto;
+    background-color: var(--NOW-1-hex);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContainerSocial a{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+}
+
+.ErrorVacio{
+    color: red;
+    text-align: center;
+}
+
+@media(max-width:1024px){
+
+    .Contact .ContainerForm{
+        margin: 0 auto;
+        width: 70%;
+        height: 350px;
+    }
+
+    .Contact .ContainerForm h2{
+        font-size: 2rem;
+    }
+
+    .Contact .ContainerForm .ContainerInput{
+        height: 40px;
+    }
+
+    .Contact .ContainerForm .ContainerInput input{
+        font-size: 1rem;
+    }
+
+    .Contact .ContainerForm .ContainerInput input::placeholder{
+        font-size: 1rem;
+    }
+    
+    .ContainerInputMsj textarea{
+        height: 90px;
+        font-size: 1rem;
+    }
+
+    .BtnMsj{
+        font-size: 1rem;
+    }
+
+    .Contact .Social{
+        height: 70px;
+
+    }
+
+
+    .Contact .Social h3{
+        font-size: 1rem;
+        margin: 0 auto;
+        padding: 5px 0 0 0;
+    }
+    
+    .ContainerSocial a{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:600px) { 
+
+    .Contact .ContainerForm{
+        width: 95%;
+    }
+
+    .Contact .Social{
+        height: 90px;
+        width: 60%;
+    }
+
+    .ContainerSocial a{
+        font-size: 1.8rem;
+    }
+
+}

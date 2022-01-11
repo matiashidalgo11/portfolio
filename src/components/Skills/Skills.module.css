@@ -1,0 +1,76 @@
+.Skills{
+    background-color: var(--NOW-3-hex);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Skills .Container{
+    margin-top: 40px;
+    width: 90%;
+    height: 90%;
+    background-color: var(--NOW-1-hex);
+    border-radius: 10px;
+}
+
+.Skills .Container h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.Skills .Container .ContainerSkills{
+
+    width: 80%;
+    height: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:stretch;
+}
+
+.Skills .Container .ContainerSkills .ContainerSkill{
+    
+    border-radius: 20px;
+    background-color: var(--NOW-3-hex);
+    width: calc(96% / 3);
+    height: calc(96% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 14px 11px 1px rgba(0,0,0,0.75);
+}
+
+.Skills .Container .ContainerSkills .ContainerSkill:hover{
+
+}
+
+.Skills .Container .ContainerSkills .ContainerSkill img{
+    padding-top: 10px;
+    width: 70%;
+    height: 70%;
+}
+
+@media (max-width:1024px){
+
+
+}
+
+@media (max-width:600px){
+
+    .Skills .Container .ContainerSkills .ContainerSkill{
+    
+        width: calc(96% / 2);
+        height: 120px;
+        margin: 5px 0;
+    }
+
+    .Skills .Container .ContainerSkills{
+        width: 90%;
+        height: 70%;
+    }
+}

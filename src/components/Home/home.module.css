@@ -1,0 +1,104 @@
+.Home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(./img/bg-alternativo.png);
+    background-position: center;
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+
+.Home .ContainerInfoHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.Home .ContainerInfoHome h2{
+    font-size: 6rem;
+    position: relative;
+    color: white;
+}
+
+.Home .ContainerInfoHome h2 span{
+    color: var(--NOW-2-hex);
+}
+
+.Home .ContainerInfoHome .Fullstack{
+    font-size: 2rem;
+}
+
+.Home .BtnHome{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 80px;
+    font-size: 4rem;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.Home .BtnHome .AiFillCaretDown{
+    position: absolute;
+    -webkit-animation: bounce-down 2s linear infinite;
+    animation: bounce-down 1s linear infinite;
+    color: white;
+}
+
+
+@-webkit-keyframes bounce-down {
+    25% {
+        -webkit-transform: translateY(-4px);
+    }
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    75% {
+        -webkit-transform: translateY(4px);
+    }
+}
+
+@keyframes bounce-down {
+    25% {
+        transform: translateY(-4px);
+    }
+    50%, 100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(4px);
+    }
+}
+
+@media(max-width:1024px){
+
+    .Home .ContainerInfoHome .Fullstack{
+        background-color: black;
+    }
+}
+
+@media (max-width:600px) { 
+
+    .Home .ContainerInfoHome h2{
+        font-size: 3rem;
+        position: relative;
+        color: white;
+    }
+    
+    .Home .ContainerInfoHome .Fullstack{
+        font-size: 1.8rem;
+    }
+
+}

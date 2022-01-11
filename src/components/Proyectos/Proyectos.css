@@ -1,0 +1,125 @@
+.Proyectos{
+    min-height: 100vh;
+    padding-top: 90px;
+    background-color: var(--NOW-3-hex);
+}
+
+.Proyectos .title-section-proyect{
+
+    background-color: var(--NOW-1-hex);
+    width: 75%;
+    padding: 20px 0;
+    border-bottom: 5px solid var(--NOW-2-hex);
+}
+
+.Proyectos .title-section-proyect h2{
+    margin-left: 10px;
+}
+
+/* Proyecto */
+
+.proyecto{
+
+    max-width: 400px;
+    max-height: 500px;
+    background-color: var(--NOW-1-hex);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 8px 13px 2px 0px rgba(0,0,0,0.75);
+}
+
+.proyecto .container-proyecto-img{
+    width: 95%;
+    height: 40%;
+    margin: 5px auto;
+}
+
+.proyecto .container-proyecto-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.proyecto .proyecto-info{
+    border-top: 2px solid var(--NOW-2-hex);
+    width: 95%;
+    margin: 0 auto;
+}
+
+.proyecto .proyecto-info h3{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.proyecto .proyecto-info .container-formato-proyecto{
+    margin: 20px auto 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.proyecto .proyecto-info .proyecto-descripcion{
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.proyecto .proyecto-info .container-btn-proyecto{
+
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 40px auto 10px auto;
+
+}
+
+.proyecto .proyecto-info .container-btn-proyecto .btn-proyecto{
+
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: var(--NOW-2-hex);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.proyecto .proyecto-info .container-btn-proyecto .btn-proyecto:hover{
+
+    color: var(--NOW-2-hex);
+    background-color: var(--NOW-1-hex);
+    outline: 3px solid var(--NOW-2-hex);
+
+}
+/* Lista Proyecto */
+
+.listado-proyectos{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media(max-width:1024px) and (min-width:600px) {
+
+    .proyecto{
+
+        max-width: 300px;
+        max-height: 350px;
+    }
+
+    .proyecto .proyecto-info .proyecto-descripcion{
+        font-size: 0.7rem;
+    }
+
+    .proyecto .proyecto-info .container-btn-proyecto{
+        
+        margin: 10px auto 0 auto;
+        width: 60%;
+
+    }
+}

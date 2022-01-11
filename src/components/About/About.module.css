@@ -1,0 +1,182 @@
+.About{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #100C3C;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Particle canvas{
+    position: absolute!important;
+}
+
+.About .ContainerBorderAbout{
+
+    position: relative;
+    width: 85%;
+    height: 600px;
+    background-color: var(--NOW-2-hex);
+    background-color: #100C3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+}
+
+.About .ContainerBorderAbout::after{
+
+    content: "";
+    position: absolute;
+    clip-path: polygon(55% 0, 100% 0, 100% 50%, 43% 100%, 0 100%, 0 43%);
+    background-color: var(--NOW-2-hex);
+    width: 100%;
+    height: 100%;
+
+    border: none;
+}
+
+.About  .ContainerBorderAbout .ContainerAbout{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--NOW-1-hex);
+    z-index: 3;
+}
+
+
+
+.About .ContainerAbout .ContainerImg{
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--NOW-1-hex);
+}
+
+.About .ContainerAbout .ContainerImg::after{
+
+    content: "";
+    position: absolute;
+    clip-path: polygon(34% 0, 100% 69%, 100% 100%, 57% 100%, 0 35%, 0 0);
+    background-color: var(--NOW-2-hex);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border: none;
+}
+
+.About .ContainerBorderAbout .ContainerAbout .ContainerImg img{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    z-index: 2;
+}
+
+.About .ContainerBorderAbout .ContainerAbout .ContainerMe{
+    width: 55%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About .ContainerBorderAbout .ContainerAbout .ContainerMe h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.About .ContainerBorderAbout .ContainerAbout .ContainerMe p{
+    font-size: 1.1rem;
+    padding: 40px 0 ;
+    margin-left: 20px;
+}
+
+.About .ContainerBorderAbout .ContainerAbout .ContainerMe .BtnResume{
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 5px 10px;
+    background-color: var(--NOW-2-hex);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.About .ContainerBorderAbout .ContainerAbout .ContainerMe .BtnResume:hover{
+
+    color: var(--NOW-2-hex);
+    background-color: var(--NOW-1-hex);
+    outline: 3px solid var(--NOW-2-hex);
+}
+
+@media (max-width:1024px){
+
+    .About .ContainerBorderAbout{
+        height: 80%;
+    }
+
+    .About .ContainerAbout .ContainerImg{
+        background-color: var(--NOW-1-hex);
+        width: 210px;
+        height: 310px;
+    }
+
+    .About .ContainerBorderAbout .ContainerAbout .ContainerImg img{
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media (max-width:600px){
+
+    .About .ContainerBorderAbout{
+        width: 100%;
+        height: 100%;
+    }
+
+    .About .ContainerBorderAbout .ContainerAbout{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .About .ContainerBorderAbout .ContainerAbout .ContainerImg{
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .About .ContainerBorderAbout .ContainerAbout .ContainerImg img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .About .ContainerBorderAbout .ContainerAbout .ContainerMe{
+        width: 80%;
+    }
+    
+    .About .ContainerBorderAbout .ContainerAbout .ContainerMe h3{
+        margin-top: 10px;
+    }
+
+    .About .ContainerBorderAbout .ContainerAbout .ContainerMe p{
+        padding: 30px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+}
