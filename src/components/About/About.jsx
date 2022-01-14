@@ -29,7 +29,7 @@ export default function About(){
                         <div className={classes.ContainerMe}>
                             <h3>Buenas! 🖐</h3>
                             <p>Soy un programador orientado al FullStack, me encanta programar y ademas de eso practicar deporte. Soy una persona activa y predispuesta.</p>
-                            <a href="https://drive.google.com/file/d/1fTn8IuaFL3rMVi3B2QApsoLVb2QalLOg/view?usp=sharing" rel="noreferrer" target="_blank" className={classes.BtnResume}>Descargar CV</a>
+                            <a href="https://drive.google.com/file/d/1i1QXJ8Y5qVB4L4HATdzNe46GUGTIEZ3B/view?usp=sharing" target="_blank" className={classes.BtnResume}>Descargar CV</a>
                         </div>
                     </div>
                 </div>
